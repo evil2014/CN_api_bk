@@ -30,6 +30,11 @@
 ## Dependencias
 + nodejs (npm)
     + Descargar de [https://nodejs.org/en/download](https://nodejs.org/en/download)
+    o
+    + ```` Console
+        curl -fsSL https://deb.nodesource.com/setup_21.x | bash - &&\
+        apt-get install -y nodejs
+      ```` 
 
 
 ## Descargar de github y desplegar
