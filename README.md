@@ -38,11 +38,11 @@
 
 
 ## Descargar de github y desplegar
-```` 
+```` console
 git clone https://github.com/evil2014/CN_api_bk.git
 ````
 ### instalar dependecias
-```` zsh 
+```` console
  npm install
  node index.js
 ````
