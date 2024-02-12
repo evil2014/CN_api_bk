@@ -11,7 +11,22 @@
   email VARCHAR(30)
 ````
 # Proyecto
-
+## paqueteria para trabajar con el proyecto
++ git
+    + debian
+    ```` Console
+    apt intstall git
+    ```` 
++ curl
+    + debian
+    ```` Console
+    apt install curl
+    ````
++  Nginx
+    + debian
+    ```` Console
+    apt install nginx
+    ```` 
 ## Dependencias
 + nodejs (npm)
     + Descargar de [https://nodejs.org/en/download](https://nodejs.org/en/download)
