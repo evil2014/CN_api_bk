@@ -31,10 +31,15 @@
 + nodejs (npm)
     + Descargar de [https://nodejs.org/en/download](https://nodejs.org/en/download)
     o
-    + ```` Console
+    + ```` Console 
         curl -fsSL https://deb.nodesource.com/setup_21.x | bash - &&\
         apt-get install -y nodejs
       ```` 
+    + Ubuntu
+        + ```` Console
+          curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+          ````  
 
 
 ## Descargar de github y desplegar
