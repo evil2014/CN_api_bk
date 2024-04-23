@@ -8,7 +8,7 @@
     CREATE TABLE users (
   ID SERIAL PRIMARY KEY,
   name VARCHAR(30),
-  email VARCHAR(30)
+  email VARCHAR(30));
 ````
 # Proyecto
 ## paqueteria para trabajar con el proyecto
