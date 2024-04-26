@@ -1,10 +1,14 @@
 const Pool = require('pg').Pool
+var fs = require('fs');
 const pool = new Pool({
-    user: 'user_me',
-    host: 'localhost',
-    database: 'api_db',
-    password: 'password',
+    user: 'postgres',
+    host: 'o5lsjbrgdiwhgfsnnnsqrbfqavgvxq-primary.postgresql.us-ashburn-1.oc1.oraclecloud.com',
+    database: 'api',
+    password: 'Moskitos_1017',
     port: 5432,
+    ssl: {
+    	ca: fs.readFileSync('CaCertificate-db_S.pub') 
+    }
 })
 
 
@@ -26,6 +30,7 @@ const getUserById = (request, response) => {
             throw error
         }
         response.status(200).json(results.rows)
+	
     })
 }
 
