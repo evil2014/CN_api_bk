@@ -1,10 +1,10 @@
 const Pool = require('pg').Pool
 var fs = require('fs');
 const pool = new Pool({
-    user: 'postgres',
-    host: 'o5lsjbrgdiwhgfsnnnsqrbfqavgvxq-primary.postgresql.us-ashburn-1.oc1.oraclecloud.com',
+    user: '',
+    host: '',
     database: 'api',
-    password: 'Moskitos_1017',
+    password: '',
     port: 5432,
     ssl: {
     	ca: fs.readFileSync('CaCertificate-db_S.pub') 
